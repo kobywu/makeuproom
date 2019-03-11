@@ -1,0 +1,173 @@
+body {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	margin: 0;
+}
+
+.half-body1{
+	height: 100%;
+	width: 30%;
+	background-color: blue;
+	display: block;
+}
+.half-body2{
+	height: 100%;
+	width: 20%;
+	background-color: green;
+	display: block;
+}
+.half-body3{
+	height: 100%;
+	width: 20%;
+	background-color: red;
+}
+.half-body4{
+	height: 100%;
+	width: 35%;
+	background-color: pink;
+}
+//* ABOVE ARE PARENT DIVS *//
+.eyeshadow{
+	height: calc(100%/3);
+	width: 100%;
+	background-color: purple;
+}
+
+.cheeks{
+	height: calc(100%/3);
+	width: 100%;
+	background-color: black;
+}
+.lips{
+	height: calc(100%/3);
+	width: 100%;
+	background-color: red;
+}
+.button1{
+	height: calc(100%/6);
+	width: 100%;
+	background-color: #9a4340;
+	border-style: solid;
+	border-width: 0.5px;
+}
+.button2{
+	height: calc(100%/6);
+	width: 100%;
+	background-color: #4d2120;
+	border-style: solid;
+	border-width: 0.5px;
+}
+.button3{
+	height: calc(100%/6);
+	width: 100%;
+	background-color: #f8cff5;
+	border-style: solid;
+	border-width: 0.5px;
+}
+.button4{
+	height: calc(100%/6);
+	width: 100%;
+	background-color: #8e6c05;
+	border-style: solid;
+	border-width: 0.5px;
+
+}
+.button5{
+	height: calc(100%/6);
+	width: 100%;
+	background-color: #f23838;
+	border-style: solid;
+	border-width: 0.5px;
+}
+.button6{
+	height: calc(100%/6);
+	width: 100%;
+	background-color: #f78080;
+	border-style: solid;
+	border-width: 0.5px;
+}
+.button7{
+	height: calc(100%/6);
+	width: 100%;
+	background-color: #cd9e8c;
+	border-style: solid;
+	border-width: 0.5px;
+}
+.button8{
+	height: calc(100%/6);
+	width: 100%;
+	background-color: white;
+	border-style: solid;
+	border-width: 0.5px;
+}
+.button9{
+	height: calc(100%/6);
+	width: 100%;
+	background-color: #dda8be;
+	border-style: solid;
+	border-width: 0.5px;
+}
+.button10{
+	height: calc(100%/6);
+	width: 100%;
+	background-color: #B87900;
+	border-style: solid;
+	border-width: 0.5px;
+}
+.button11{
+	height: calc(100%/6);
+	width: 100%;
+	background-color: #912121;
+	border-style: solid;
+	border-width: 0.5px;
+}
+.button12{
+	height: calc(100%/6);
+	width: 100%;
+	background-color: #ca0808;
+	border-style: solid;
+	border-width: 0.5px;
+}
+.eye-pic{
+	height: 25%;
+	width: 35vw;
+	background-color: yellow;
+}
+
+.cheek-pic{
+	height: 25%;
+	width: 35vw;
+	background-color: blue;
+}
+
+.lips-pic{
+	height: 25%;
+	width: 35vw;
+	background-color: black;
+}
+
+.key{
+	height: 25%;
+	width: 35vw;
+	background-color: black;
+}
+.restrict-img-size{
+	height: 33.3%;
+	max-width: 100%;
+}
+.restrict-img-size2{
+	height: 100%;
+	width: 100%;
+}
+.restrict-img-size3{
+	height: 100%;
+	max-width: 100%;
+}
+.restrict-img-size4{
+	height: 100%;
+	min-width: 100%
+}
+.opaque{
+	opacity: 0.5;
+}
