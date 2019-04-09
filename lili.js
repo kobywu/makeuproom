@@ -45,7 +45,7 @@ function checkColors2(elem){
 	}
 }
 
-var timeLeft = 60;
+var timeLeft = 120;
     var elem = document.getElementById('some_div');
     
     var timerId = setInterval(countdown, 1000);
